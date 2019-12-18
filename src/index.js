@@ -96,9 +96,7 @@ function App() {
     todos.forEach(todo => {
       if (todo.todo.toLowerCase() === todoText.toLowerCase()) {
         hasDuplicateError = true;
-        return todo;
       }
-      return null;
     });
 
     if (hasDuplicateError) {
