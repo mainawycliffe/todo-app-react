@@ -141,7 +141,7 @@ function App() {
         {showErrorUI}
         <div className="columns">
           <div className="column is-half is-offset-3">
-            <AddTodo addTodo={addTodo} placeholder="Buy Bread, By Onions ..." />
+            <AddTodo addTodo={addTodo} placeholder="ie. Buy Bread..." />
           </div>
         </div>
         <div className="columns">
